@@ -14,6 +14,7 @@ module Gemini
       end
 
       def config
+        #removed common connection
         Configuration.new
       end
     end
